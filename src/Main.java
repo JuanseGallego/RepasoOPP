@@ -9,10 +9,12 @@ public class Main {
         notificaciones[0] = new NotificacionCorreo("Pepito");
         notificaciones[1] = new NotificacionSMS("Juanito");
         notificaciones[2] = new NotificacionWhatsApp("Juan Mecanico");
+        notificaciones[3] = new NotificacionClashRoyal("Steven");
 
         notificaciones[0].enviarMensaje("Hola mi amigo");
         notificaciones[1].enviarMensaje("Hola mi broco");
         notificaciones[2].enviarMensaje("Bienvenido al grupo de WhatsApp de la clase de mecanica");
+        notificaciones[3].enviarMensaje("¡La batalla te espera en la Arena!");
 
     }
 }
