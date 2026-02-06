@@ -4,7 +4,6 @@ public class Main {
 
         Notificacion[] notificaciones = new Notificacion[5];
 
-        Notificacion[] notificaciones = new Notificacion[5];
         notificaciones[0] = new NotificacionCorreo("Pepito");
         notificaciones[1] = new NotificacionSMS("Juanito");
         notificaciones[2] = new NotificacionIG("Maria");
